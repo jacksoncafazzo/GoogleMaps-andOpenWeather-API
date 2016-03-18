@@ -29,5 +29,13 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksoncafazzo/GoogleMaps-andOpenWeather-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacksoncafazzo/GoogleMaps-andOpenWeather-API/issues"
+  },
+  "homepage": "https://github.com/jacksoncafazzo/GoogleMaps-andOpenWeather-API#readme"
 }

@@ -1,4 +1,4 @@
-var mapApiKey = require('./../.env').mapsApiKey;
+//var mapsApiKey = require('./../.env').mapsApiKey;
 var map;
 var marker;
 var myLatLng = {

@@ -1,4 +1,4 @@
-var apiKey = require('./../.env').apiKey;
+var apiKey = require('./../.env').OWApiKey;
 var map = require('./../js/map.js');
 var responses = [];
 var infowindows = [];
@@ -15,7 +15,7 @@ $(document).ready(function() {
     //clear the textbox
     $('#location').val('');
     //get weather object from API
-    $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' + apiKey).then(function(newResponse) {
+    $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' +'1102457284f22b69033e3fc2f6456532').then(function(newResponse) {
       console.log(newResponse);
       //push to responses
       responses.push(newResponse);
